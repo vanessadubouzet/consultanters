@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding: 30px 0px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 100;
+    background: url('./images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar a {
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 40px;
+    color: white;
+}
