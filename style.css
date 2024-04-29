@@ -15,6 +15,12 @@ header {
     background-size: cover;
 }
 
+footer {
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
 .navbar {
     background-color: black;
     opacity: 60%;
@@ -38,31 +44,154 @@ header {
     padding: 100px 100px 10px;
 }
 
-.home-title > h1{
+.home-title>h1 {
     color: white;
     font-size: 2rem;
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
 
-.home-title > h2 {
+.home-title>h2 {
     color: white;
     font-size: 3rem;
 }
 
-.home-title > span {
-    padding: 20px;
+.home-title>span {
+    margin-left: 20px;
     font-weight: bold;
     font-size: 2rem;
     color: black;
 }
 
-.home-description {
-    padding: 0px 120px;
+.home-description p {
+    padding: 0px 150px;
     color: white;
     font-size: 1rem;
 }
 
+.home-description a {
+    margin-left: 150px;
+}
+
 .btn {
     background-color: white;
+}
+
+.about-row1 {
+    background: url('./images/about-cover.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    text-transform: uppercase;
+}
+
+.about-mission {
+    padding: 10px 100px;
+    margin: 50px 50px 0px;
+}
+
+.about-mission h2 {
+    font-size: 3em;
+}
+
+.about-mission > p {
+    overflow-wrap: break-word;
+    color: white;
+    text-transform: none;
+    font-size: 1em;
+    margin-left: 50px;
+}
+
+.about-vision {
+    padding: 0px 50px;
+    margin-left: 300px;
+}
+
+.about-vision h2 {
+    font-size: 3em;
+}
+
+.about-vision > p {
+    color: white;
+    text-transform: none;
+    margin-left: 50px;
+}
+
+.service-title {
+    color: white;
+    padding: 100px;
+    display: block;
+}
+
+.service-page h1 {
+    text-transform: uppercase;
+}
+
+.service-page h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.service-page p {
+    padding: 10px 200px;
+}
+
+.service-title > h1 {
+    font-size: 4rem;
+}
+
+.service-title > h2 {
+    margin-left: 50px;
+    font-size: 3rem;
+}
+
+.service-title>p {
+    margin-left: 50px;
+    font-size: 1rem;
+    padding: 10px;
+    color: white;
+}
+
+.service-row2 {
+    background: url('./images/consulting.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 110px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-row2 h2, p {
+    color: black;
+}
+
+.service-row3 {
+    background: url('./images/citylights.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 110px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-row3 p,
+h2 {
+    color: white;
+}
+
+.service-row4 {
+    background: url('./images/training.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 110px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-row4 h2,
+p {
+    color: black;
 }
